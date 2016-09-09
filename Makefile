@@ -1,4 +1,4 @@
 all:
-	g++ AComponent.cpp  ADecorator.cpp  Decorator.cpp  main.cpp -o app -g -Wall
+	make -C Decorator
 clean:
-	rm -rf app *.o
+	make -C Decorator clean
